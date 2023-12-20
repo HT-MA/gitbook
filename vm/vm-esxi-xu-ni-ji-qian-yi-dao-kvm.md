@@ -2,7 +2,11 @@
 
 #### 资源
 
-VM esxi 中安装一台带gui的centos7系统，用来安装kvm VM esxi 中导出的nginx 虚拟机一个 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/1941413/1687252426318-5efef0f4-78fb-458e-838b-307cdb141589.png#averageHue=%23ecd29a\&clientId=u7bb0aee3-baa6-4\&from=paste\&height=163\&id=u06c46ee1\&originHeight=163\&originWidth=1025\&originalType=binary\&ratio=1\&rotation=0\&showTitle=false\&size=27558\&status=done\&style=none\&taskId=ubeded622-a7d9-4361-a183-a5994723b57\&title=\&width=1025)
+VM esxi 中安装一台带gui的centos7系统，用来安装kvm&#x20;
+
+VM esxi 中导出的nginx 虚拟机一个&#x20;
+
+<figure><img src="../.gitbook/assets/vm-centos7.png" alt=""><figcaption></figcaption></figure>
 
 ####
 
@@ -18,7 +22,9 @@ flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov 
 
 #### VM esxi开启虚拟机虚拟化
 
-操作步骤 关闭虚拟机——选择编辑——点击cpu下拉箭头——硬件虚拟化栏打勾——保存——开机——执行查询是否支持虚拟化命令 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/1941413/1687243308187-b326f72d-7289-4995-9f58-3da23e8c957a.png#averageHue=%23464128\&clientId=u3cfe2f94-c8eb-4\&from=paste\&height=723\&id=uaf9f7a29\&originHeight=723\&originWidth=1115\&originalType=binary\&ratio=1\&rotation=0\&showTitle=false\&size=82672\&status=done\&style=none\&taskId=uee1b42af-e187-40de-96ca-2abde2f266d\&title=\&width=1115)
+操作步骤 关闭虚拟机——选择编辑——点击cpu下拉箭头——硬件虚拟化栏打勾——保存——开机——执行查询是否支持虚拟化命令&#x20;
+
+<figure><img src="../.gitbook/assets/开启虚拟化.png" alt=""><figcaption></figcaption></figure>
 
 #### 关闭selinux
 
@@ -188,7 +194,13 @@ Starting install...
 Domain installation still in progress. Waiting for installation to complete.
 ```
 
-查看虚拟机 在命令行输入启动命令 virt-manager ![image.png](https://cdn.nlark.com/yuque/0/2023/png/1941413/1687251968819-626f0992-eae2-405e-bc64-24ee5a086e40.png#averageHue=%23e7e7e4\&clientId=u3cfe2f94-c8eb-4\&from=paste\&height=711\&id=u7a626f27\&originHeight=711\&originWidth=611\&originalType=binary\&ratio=1\&rotation=0\&showTitle=false\&size=56082\&status=done\&style=none\&taskId=ubf53d3bd-3205-4af6-9105-1c06009af00\&title=\&width=611) 登录nginx虚拟机，使用之前的账号密码即可
+查看虚拟机 在命令行输入启动命令 virt-manager&#x20;
+
+<figure><img src="../.gitbook/assets/查看kvm-vm (2).png" alt=""><figcaption></figcaption></figure>
+
+&#x20;登录nginx虚拟机，使用之前的账号密码即可
+
+<figure><img src="../.gitbook/assets/登录虚拟机.png" alt=""><figcaption></figcaption></figure>
 
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/1941413/1687252061698-dbe91201-67c7-48cd-a2e4-27a03d403071.png#averageHue=%23161616\&clientId=u3cfe2f94-c8eb-4\&from=paste\&height=596\&id=u981c2f6c\&originHeight=596\&originWidth=798\&originalType=binary\&ratio=1\&rotation=0\&showTitle=false\&size=27102\&status=done\&style=none\&taskId=u5659efda-c54a-413c-b531-d4856d61bdf\&title=\&width=798)
 
